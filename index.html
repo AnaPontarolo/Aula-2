@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página em HTML5</title>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo(a) à minha Página</h1>
+    </header>
+
+    <main>
+        <figure> <!--UTILIZAR IMAGEM-->
+
+            <img src="fig1.jpg" alt="Imagem que descreve um rio no periodo da noite">  <!--scr endereço da imagem e alt descrição-->
+            <figcaption>Lago</figcaption>
+        </figure>
+
+        <br> <!--quebrar a linha-->
+        
+        <!--audio-->
+        <audio controls>
+            <sorce src="audio.mp3" type="audio/mpeg"> <!-- a teg sorce e img não fecha-->
+        </audio>
+
+        <br> <!--quebrar a linha-->
+        
+        <!-- Videos youtube-->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ABzDOSQkhTM?si=3nO5a25khBLFLZjg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <!--video do youtube incorporar-->
+
+        <!--forms-->
+        <form>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required> <!--required campo obrigatório para preencher-->
+
+            <label for="email"> E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+
+
+        </form>
+    </main>
+</body>
+</html>
